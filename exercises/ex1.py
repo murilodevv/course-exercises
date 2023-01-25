@@ -1,9 +1,7 @@
-# Exercise 1
-import numbers
-
 user = True
 
 while user:
+    
     print("Welcome to the Number Game.")
     integer = input("Put an integer number: ")
 
@@ -30,7 +28,3 @@ while user:
                 continue
     except:
         print("The input is not a number.")
-
-# Exercise 2
-
-# TODO
